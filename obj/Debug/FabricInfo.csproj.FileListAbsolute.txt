@@ -1,0 +1,15 @@
+D:\05_Project\FabricInfo\bin\Debug\FabricInfo.exe
+D:\05_Project\FabricInfo\bin\Debug\FabricInfo.exe.config
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.csproj.AssemblyReference.cache
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.AddRecord.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.DeleteRecord.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.FormAdmin.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.FormMain.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.Properties.Resources.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.SelectInfo.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.UpdateRecord.resources
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.csproj.GenerateResource.cache
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.csproj.CoreCompileInputs.cache
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.exe
+D:\05_Project\FabricInfo\obj\Debug\FabricInfo.pdb
+D:\05_Project\FabricInfo\bin\Debug\FabricInfo.pdb
