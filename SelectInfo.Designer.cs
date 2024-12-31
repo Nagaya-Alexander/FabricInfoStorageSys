@@ -1,4 +1,6 @@
-﻿namespace FabricInfo
+﻿using System.Windows.Forms;
+
+namespace FabricInfo
 {
     partial class SelectInfo
     {
@@ -49,7 +51,7 @@
             // 
             // btnselect
             // 
-            this.btnselect.Location = new System.Drawing.Point(613, 64);
+            this.btnselect.Location = new System.Drawing.Point(917, 66);
             this.btnselect.Margin = new System.Windows.Forms.Padding(4);
             this.btnselect.Name = "btnselect";
             this.btnselect.Size = new System.Drawing.Size(69, 37);
@@ -62,7 +64,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label1.Location = new System.Drawing.Point(102, 25);
+            this.label1.Location = new System.Drawing.Point(406, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(93, 20);
@@ -71,6 +73,8 @@
             // 
             // dgvselevtinfo
             // 
+            this.dgvselevtinfo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvselevtinfo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvselevtinfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvselevtinfo.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.fabric_id,
@@ -86,7 +90,7 @@
             this.dgvselevtinfo.Name = "dgvselevtinfo";
             this.dgvselevtinfo.RowHeadersWidth = 51;
             this.dgvselevtinfo.RowTemplate.Height = 27;
-            this.dgvselevtinfo.Size = new System.Drawing.Size(1051, 384);
+            this.dgvselevtinfo.Size = new System.Drawing.Size(1382, 691);
             this.dgvselevtinfo.TabIndex = 3;
             this.dgvselevtinfo.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvselevtinfo_CellContentClick);
             // 
@@ -96,7 +100,6 @@
             this.fabric_id.HeaderText = "面料编号";
             this.fabric_id.MinimumWidth = 6;
             this.fabric_id.Name = "fabric_id";
-            this.fabric_id.Width = 125;
             // 
             // fabric_name
             // 
@@ -104,7 +107,6 @@
             this.fabric_name.HeaderText = "面料名称";
             this.fabric_name.MinimumWidth = 6;
             this.fabric_name.Name = "fabric_name";
-            this.fabric_name.Width = 125;
             // 
             // fabric_composition
             // 
@@ -112,7 +114,6 @@
             this.fabric_composition.HeaderText = "面料成分";
             this.fabric_composition.MinimumWidth = 6;
             this.fabric_composition.Name = "fabric_composition";
-            this.fabric_composition.Width = 125;
             // 
             // fabric_origin
             // 
@@ -120,7 +121,6 @@
             this.fabric_origin.HeaderText = "面料产地";
             this.fabric_origin.MinimumWidth = 6;
             this.fabric_origin.Name = "fabric_origin";
-            this.fabric_origin.Width = 125;
             // 
             // supplier_id
             // 
@@ -128,7 +128,6 @@
             this.supplier_id.HeaderText = "供应商编号";
             this.supplier_id.MinimumWidth = 6;
             this.supplier_id.Name = "supplier_id";
-            this.supplier_id.Width = 125;
             // 
             // production_batch
             // 
@@ -136,7 +135,6 @@
             this.production_batch.HeaderText = "生产批次";
             this.production_batch.MinimumWidth = 6;
             this.production_batch.Name = "production_batch";
-            this.production_batch.Width = 125;
             // 
             // glossiness
             // 
@@ -144,7 +142,6 @@
             this.glossiness.HeaderText = "光泽度";
             this.glossiness.MinimumWidth = 6;
             this.glossiness.Name = "glossiness";
-            this.glossiness.Width = 125;
             // 
             // texture_and_structure
             // 
@@ -152,11 +149,10 @@
             this.texture_and_structure.HeaderText = "织物组织";
             this.texture_and_structure.MinimumWidth = 6;
             this.texture_and_structure.Name = "texture_and_structure";
-            this.texture_and_structure.Width = 125;
             // 
             // tbfabid
             // 
-            this.tbfabid.Location = new System.Drawing.Point(236, 25);
+            this.tbfabid.Location = new System.Drawing.Point(540, 27);
             this.tbfabid.Name = "tbfabid";
             this.tbfabid.Size = new System.Drawing.Size(178, 27);
             this.tbfabid.TabIndex = 4;
@@ -166,7 +162,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label2.Location = new System.Drawing.Point(102, 70);
+            this.label2.Location = new System.Drawing.Point(406, 72);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 20);
@@ -175,7 +171,7 @@
             // 
             // tbfabname
             // 
-            this.tbfabname.Location = new System.Drawing.Point(236, 70);
+            this.tbfabname.Location = new System.Drawing.Point(540, 72);
             this.tbfabname.Name = "tbfabname";
             this.tbfabname.Size = new System.Drawing.Size(178, 27);
             this.tbfabname.TabIndex = 6;
@@ -184,7 +180,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label3.Location = new System.Drawing.Point(462, 32);
+            this.label3.Location = new System.Drawing.Point(766, 34);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(114, 20);
@@ -193,7 +189,7 @@
             // 
             // tbsupid
             // 
-            this.tbsupid.Location = new System.Drawing.Point(590, 25);
+            this.tbsupid.Location = new System.Drawing.Point(894, 27);
             this.tbsupid.Name = "tbsupid";
             this.tbsupid.Size = new System.Drawing.Size(168, 27);
             this.tbsupid.TabIndex = 8;
@@ -202,7 +198,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1107, 515);
+            this.ClientSize = new System.Drawing.Size(1418, 811);
             this.Controls.Add(this.tbsupid);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tbfabname);

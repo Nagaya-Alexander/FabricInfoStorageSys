@@ -1,18 +1,24 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using AutoWindowsSize;
+
 namespace FabricInfo
 {
+
     public partial class FormMain : Form
     {
+
+        AutoAdaptWindowsSize AutoSize;
         public FormMain()
         {
             InitializeComponent();
+
         }
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-
+            AutoSize = new AutoAdaptWindowsSize(this);
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -90,6 +96,14 @@ namespace FabricInfo
                 return false;
             }
             return true;
+        }
+
+        private void FormMain_SizeChanged(object sender, EventArgs e)
+        {
+            if (AutoSize != null) // 一定加这个判断，电脑缩放布局不是100%的时候，会报错
+            {
+                AutoSize.FormSizeChanged();
+            }
         }
     }
 }

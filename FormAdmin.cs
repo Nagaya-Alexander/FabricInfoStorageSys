@@ -12,6 +12,7 @@ namespace FabricInfo
 {
     public partial class FormAdmin : Form
     {
+
         public FormAdmin()
         {
             InitializeComponent();

@@ -67,6 +67,7 @@
     <Compile Include="AddRecord.Designer.cs">
       <DependentUpon>AddRecord.cs</DependentUpon>
     </Compile>
+    <Compile Include="AutoWindowsSize.cs" />
     <Compile Include="DeleteRecord.cs">
       <SubType>Form</SubType>
     </Compile>
