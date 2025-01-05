@@ -35,7 +35,10 @@
             this.deleterecord = new System.Windows.Forms.ToolStripMenuItem();
             this.updaterecord = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.pnadmin = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
+            this.pnadmin.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -47,10 +50,10 @@
             this.toolStripMenuItem2});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1055, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(846, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-
+            // 
             // selectinfo
             // 
             this.selectinfo.Name = "selectinfo";
@@ -96,12 +99,38 @@
             this.toolStripMenuItem2.Text = "退出系统";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.exitsys_click);
             // 
+            // pnadmin
+            // 
+            this.pnadmin.Controls.Add(this.label1);
+            this.pnadmin.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnadmin.Location = new System.Drawing.Point(0, 28);
+            this.pnadmin.Name = "pnadmin";
+            this.pnadmin.Size = new System.Drawing.Size(846, 533);
+            this.pnadmin.TabIndex = 2;
+            this.pnadmin.AutoSizeChanged += new System.EventHandler(this.FormAdmin_Load);
+            this.pnadmin.DockChanged += new System.EventHandler(this.pnadmin_DockChanged);
+            // 
+            // label1
+            // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("隶书", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label1.Location = new System.Drawing.Point(294, 230);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(244, 28);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "欢迎您，管理员！";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
             // FormAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1055, 561);
+            this.ClientSize = new System.Drawing.Size(846, 561);
+            this.Controls.Add(this.pnadmin);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FormAdmin";
@@ -109,6 +138,8 @@
             this.Load += new System.EventHandler(this.FormAdmin_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.pnadmin.ResumeLayout(false);
+            this.pnadmin.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -123,5 +154,7 @@
         private System.Windows.Forms.ToolStripMenuItem deleterecord;
         private System.Windows.Forms.ToolStripMenuItem updaterecord;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.Panel pnadmin;
+        private System.Windows.Forms.Label label1;
     }
 }

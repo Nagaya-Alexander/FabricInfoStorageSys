@@ -50,6 +50,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.makeEmpty = new System.Windows.Forms.Button();
             this.tgakePreserve = new System.Windows.Forms.Button();
+            this.btnaddexit = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -153,21 +154,26 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox1.Controls.Add(this.tbfabname);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.tbfabid);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Location = new System.Drawing.Point(38, 23);
+            this.groupBox1.Location = new System.Drawing.Point(38, 24);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(412, 154);
+            this.groupBox1.Size = new System.Drawing.Size(412, 153);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "面料基本信息";
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.groupBox2.AutoSize = true;
+            this.groupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBox2.Controls.Add(this.tbfabtands);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.tbfabglo);
@@ -182,7 +188,7 @@
             this.groupBox2.Controls.Add(this.tbfabcomposition);
             this.groupBox2.Location = new System.Drawing.Point(38, 220);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(412, 332);
+            this.groupBox2.Size = new System.Drawing.Size(412, 344);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "面料其他信息";
@@ -239,9 +245,11 @@
             // 
             // makeEmpty
             // 
-            this.makeEmpty.Location = new System.Drawing.Point(126, 593);
+            this.makeEmpty.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.makeEmpty.AutoSize = true;
+            this.makeEmpty.Location = new System.Drawing.Point(204, 594);
             this.makeEmpty.Name = "makeEmpty";
-            this.makeEmpty.Size = new System.Drawing.Size(75, 23);
+            this.makeEmpty.Size = new System.Drawing.Size(75, 25);
             this.makeEmpty.TabIndex = 5;
             this.makeEmpty.Text = "清空";
             this.makeEmpty.UseVisualStyleBackColor = true;
@@ -249,19 +257,35 @@
             // 
             // tgakePreserve
             // 
-            this.tgakePreserve.Location = new System.Drawing.Point(275, 593);
+            this.tgakePreserve.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.tgakePreserve.AutoSize = true;
+            this.tgakePreserve.Location = new System.Drawing.Point(375, 594);
             this.tgakePreserve.Name = "tgakePreserve";
-            this.tgakePreserve.Size = new System.Drawing.Size(75, 23);
+            this.tgakePreserve.Size = new System.Drawing.Size(75, 25);
             this.tgakePreserve.TabIndex = 5;
             this.tgakePreserve.Text = "保存";
             this.tgakePreserve.UseVisualStyleBackColor = true;
             this.tgakePreserve.Click += new System.EventHandler(this.takePreserve_click);
             // 
+            // btnaddexit
+            // 
+            this.btnaddexit.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnaddexit.AutoSize = true;
+            this.btnaddexit.ForeColor = System.Drawing.Color.Sienna;
+            this.btnaddexit.Location = new System.Drawing.Point(38, 594);
+            this.btnaddexit.Name = "btnaddexit";
+            this.btnaddexit.Size = new System.Drawing.Size(75, 25);
+            this.btnaddexit.TabIndex = 6;
+            this.btnaddexit.Text = "退出";
+            this.btnaddexit.UseVisualStyleBackColor = true;
+            this.btnaddexit.Click += new System.EventHandler(this.btnaddexit_Click);
+            // 
             // AddRecord
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(492, 644);
+            this.Controls.Add(this.btnaddexit);
             this.Controls.Add(this.tgakePreserve);
             this.Controls.Add(this.makeEmpty);
             this.Controls.Add(this.groupBox2);
@@ -274,6 +298,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -300,5 +325,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button makeEmpty;
         private System.Windows.Forms.Button tgakePreserve;
+        private System.Windows.Forms.Button btnaddexit;
     }
 }

@@ -25,6 +25,8 @@ namespace FabricInfo
 
         private void SelectInfo_Load(object sender, EventArgs e)
         {
+            this.Dock = DockStyle.Fill; // 自动填充父窗体
+            this.FormBorderStyle = FormBorderStyle.None; // 去掉边框，完全填充
             ShowSelectInfo();
         }
 
@@ -80,6 +82,18 @@ namespace FabricInfo
             string fabName = tbfabname.Text.Trim();
             string supId = tbsupid.Text.Trim();
             ShowSelectInfo(fabId, fabName, supId);
+        }
+
+        private void btnaddexit_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void btnaselectexit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("确定要退出吗？", "退出确认", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            this.Close();
         }
     }
 }

@@ -3,32 +3,72 @@
   "WorkspaceRootPath": "D:\\05_Project\\FabricInfo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\selectinfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:selectinfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\deleterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:deleterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\formadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\selectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\addrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:addrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\addrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:addrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\selectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:selectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\selectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\selectinfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:selectinfo.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\selectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:selectinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|d:\\05_project\\fabricinfo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\updaterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:updaterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\autowindowssize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:autowindowssize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\updaterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:updaterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\deleterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:deleterecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|D:\\05_Project\\FabricInfo\\formadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19C10522-CE20-4F7E-B56D-92DFA23F0006}|FabricInfo.csproj|solutionrelative:formadmin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,66 +90,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SelectInfo.Designer.cs",
-              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\SelectInfo.Designer.cs",
-              "RelativeDocumentMoniker": "SelectInfo.Designer.cs",
-              "ToolTip": "D:\\05_Project\\FabricInfo\\SelectInfo.Designer.cs",
-              "RelativeToolTip": "SelectInfo.Designer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "FormMain.Designer.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\FormMain.Designer.cs",
+              "RelativeToolTip": "FormMain.Designer.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAiwBcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:32:26.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAdmin.Designer.cs",
-              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormAdmin.Designer.cs",
-              "RelativeDocumentMoniker": "FormAdmin.Designer.cs",
-              "ToolTip": "D:\\05_Project\\FabricInfo\\FormAdmin.Designer.cs",
-              "RelativeToolTip": "FormAdmin.Designer.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAiwBsAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:26:07.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormAdmin.cs [\u8BBE\u8BA1]",
-              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "FormAdmin.cs",
-              "ToolTip": "D:\\05_Project\\FabricInfo\\FormAdmin.cs [\u8BBE\u8BA1]",
-              "RelativeToolTip": "FormAdmin.cs [\u8BBE\u8BA1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:17:34.246Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2025-01-01T14:33:25.381Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "FormAdmin.cs",
-              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "FormAdmin.cs",
-              "ToolTip": "D:\\05_Project\\FabricInfo\\FormAdmin.cs",
-              "RelativeToolTip": "FormAdmin.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:17:51.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "SelectInfo.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\05_Project\\FabricInfo\\SelectInfo.cs",
               "RelativeDocumentMoniker": "SelectInfo.cs",
               "ToolTip": "D:\\05_Project\\FabricInfo\\SelectInfo.cs [\u8BBE\u8BA1]",
               "RelativeToolTip": "SelectInfo.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:32:06.125Z",
-              "EditorCaption": " [\u8BBE\u8BA1]"
+              "WhenOpened": "2024-12-31T07:32:06.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormAdmin.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\FormAdmin.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FormAdmin.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:17:34.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormAdmin.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "FormAdmin.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\FormAdmin.cs",
+              "RelativeToolTip": "FormAdmin.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAtwDMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:17:51.243Z"
             },
             {
               "$type": "Document",
@@ -119,23 +142,151 @@
               "RelativeDocumentMoniker": "SelectInfo.cs",
               "ToolTip": "D:\\05_Project\\FabricInfo\\SelectInfo.cs",
               "RelativeToolTip": "SelectInfo.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAiwBEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAgwF4AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:32:07.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T07:32:07.32Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
+              "Title": "AutoWindowsSize.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\AutoWindowsSize.cs",
+              "RelativeDocumentMoniker": "AutoWindowsSize.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\AutoWindowsSize.cs",
+              "RelativeToolTip": "AutoWindowsSize.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T06:03:29.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateRecord.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\UpdateRecord.cs",
+              "RelativeDocumentMoniker": "UpdateRecord.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\UpdateRecord.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "UpdateRecord.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T05:58:45.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateRecord.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\UpdateRecord.cs",
+              "RelativeDocumentMoniker": "UpdateRecord.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\UpdateRecord.cs",
+              "RelativeToolTip": "UpdateRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T05:58:49.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\05_Project\\FabricInfo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\05_Project\\FabricInfo\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T07:17:27.35Z",
+              "WhenOpened": "2024-12-31T07:17:27.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddRecord.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\AddRecord.cs",
+              "RelativeDocumentMoniker": "AddRecord.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\AddRecord.cs",
+              "RelativeToolTip": "AddRecord.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAAAI0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T13:18:20.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddRecord.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\AddRecord.cs",
+              "RelativeDocumentMoniker": "AddRecord.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\AddRecord.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "AddRecord.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T13:18:19.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormMain.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\FormMain.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "FormMain.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T05:58:58.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormMain.cs",
+              "RelativeDocumentMoniker": "FormMain.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\FormMain.cs",
+              "RelativeToolTip": "FormMain.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAlwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T05:58:59.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteRecord.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\DeleteRecord.cs",
+              "RelativeDocumentMoniker": "DeleteRecord.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\DeleteRecord.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "DeleteRecord.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T06:02:55.813Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeleteRecord.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\DeleteRecord.cs",
+              "RelativeDocumentMoniker": "DeleteRecord.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\DeleteRecord.cs",
+              "RelativeToolTip": "DeleteRecord.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAjwE4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T06:02:56.892Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormAdmin.Designer.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\FormAdmin.Designer.cs",
+              "RelativeDocumentMoniker": "FormAdmin.Designer.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\FormAdmin.Designer.cs",
+              "RelativeToolTip": "FormAdmin.Designer.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAiwBsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:26:07.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SelectInfo.Designer.cs",
+              "DocumentMoniker": "D:\\05_Project\\FabricInfo\\SelectInfo.Designer.cs",
+              "RelativeDocumentMoniker": "SelectInfo.Designer.cs",
+              "ToolTip": "D:\\05_Project\\FabricInfo\\SelectInfo.Designer.cs",
+              "RelativeToolTip": "SelectInfo.Designer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:32:26.534Z"
             }
           ]
         }

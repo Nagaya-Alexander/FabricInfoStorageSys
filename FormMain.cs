@@ -105,5 +105,6 @@ namespace FabricInfo
                 AutoSize.FormSizeChanged();
             }
         }
+
     }
 }

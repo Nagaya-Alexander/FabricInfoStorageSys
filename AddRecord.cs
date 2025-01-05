@@ -34,7 +34,8 @@ namespace FabricInfo
 
         private void AddRecord_Load(object sender, EventArgs e)
         {
-
+            this.Dock = DockStyle.Fill; // 确保填充父窗体
+            this.FormBorderStyle = FormBorderStyle.None; // 去掉边框以完全填满
         }
 
         private void makeEmpty_click(object sender, EventArgs e)
@@ -133,6 +134,12 @@ namespace FabricInfo
             }
 
             MessageBox.Show("记录添加成功!");
+        }
+
+        private void btnaddexit_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("确定要退出吗？", "退出确认", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            this.Close();
         }
     }
 }

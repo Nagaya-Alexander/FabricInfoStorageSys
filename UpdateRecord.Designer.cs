@@ -58,6 +58,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.btnrowupdate = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvupdaterecord)).BeginInit();
             this.editregion.SuspendLayout();
             this.SuspendLayout();
@@ -338,11 +339,22 @@
             this.btnrowupdate.UseVisualStyleBackColor = true;
             this.btnrowupdate.Click += new System.EventHandler(this.btnrowupdate_Click);
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(536, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(8, 8);
+            this.groupBox1.TabIndex = 19;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
             // UpdateRecord
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1059, 551);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.editregion);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -393,5 +405,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnrowupdate;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }

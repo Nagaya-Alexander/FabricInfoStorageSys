@@ -46,6 +46,7 @@ namespace FabricInfo
             this.tbfabname = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.tbsupid = new System.Windows.Forms.TextBox();
+            this.btnaddexit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvselevtinfo)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,6 +74,7 @@ namespace FabricInfo
             // 
             // dgvselevtinfo
             // 
+            this.dgvselevtinfo.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.dgvselevtinfo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvselevtinfo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvselevtinfo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -194,11 +196,25 @@ namespace FabricInfo
             this.tbsupid.Size = new System.Drawing.Size(168, 27);
             this.tbsupid.TabIndex = 8;
             // 
+            // btnaddexit
+            // 
+            this.btnaddexit.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btnaddexit.AutoSize = true;
+            this.btnaddexit.ForeColor = System.Drawing.Color.Sienna;
+            this.btnaddexit.Location = new System.Drawing.Point(23, 34);
+            this.btnaddexit.Name = "btnaddexit";
+            this.btnaddexit.Size = new System.Drawing.Size(75, 29);
+            this.btnaddexit.TabIndex = 9;
+            this.btnaddexit.Text = "退出";
+            this.btnaddexit.UseVisualStyleBackColor = true;
+            this.btnaddexit.Click += new System.EventHandler(this.btnaselectexit_Click);
+            // 
             // SelectInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1418, 811);
+            this.Controls.Add(this.btnaddexit);
             this.Controls.Add(this.tbsupid);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.tbfabname);
@@ -237,5 +253,6 @@ namespace FabricInfo
         private System.Windows.Forms.TextBox tbfabname;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tbsupid;
+        private Button btnaddexit;
     }
 }
